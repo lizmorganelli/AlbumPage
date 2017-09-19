@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Album - Contact</title>
+        <style>
+                table, td {border-spacing: 1em;
+                }
+        </style>
+    </head>
+    <body>
+        <form action="#" method="POST">
+            <table>
+            <div>
+                <tr>
+                    <td align="right"><label id="FirstNameLabel" for="FirstName">First Name:</label></td> 
+                    <td><input type="text" name="FirstName"/></td>
+                </tr>
+            </div>
+            <div>
+                <tr>
+                    <td align="right"><label id="LastNameLabel" for="LastName">Last Name:</label></td>
+                    <td><input type="text" name="LastName"/></td>
+                </tr>
+            </div> 
+            <div>
+                <tr>
+                    <td align="right"><label id="EmailLabel" for="Email">Email:</label></td>
+                    <td><input type="text" name="Email"/></td>
+                </tr>
+            </div>
+            <div>
+                <tr>
+                    <td align="right"><label id="LicenseLabel" for="TypeofLicense">Type of License:</label></td>
+                    <td><input type="radio" name="TypeofLicense" value="Business" checked>Business
+                    <input type="radio" name="TypeofLicense" value="Personal">Personal</td>
+                </tr>
+            </div>
+            <div>
+                <tr>
+                    <td align="right"><label id="ReasonLabel" for="Reason">Reason:</label></td>
+                    <td><select name="Reason">
+                        <option value="SelectReason">Select a Reason</option>
+                        <option value="SoftwareSupport">Software Support</option>
+                        <option value="HardwareSupport">Hardware Support</option>
+                        <option value="InformationRequest">Information Request</option>
+                        </select></td>
+                </tr>
+            </div>
+            <div>
+                <tr>
+                    <td align="right"><label id="AddtnlInfoLabel" for="AddtnlInfo">Additional Information:</label></td>
+                    <td><textarea name="AddtnlInfo"></textarea></td>
+                </tr>
+            </div>
+            <div>
+                <tr>
+                    <td align="right"><label id="TermsofServiceLabel" for+"TermsofService"></label></td>
+                    <td><input type="checkbox" name="TermsofService" value="ReadTermsofService" align="right">I have read the 
+                        terms of service.</td>
+                </tr>
+            </div>
+            </table>
+            <div>
+                <center>
+                    <input type="submit" value="Send Request"/> 
+                </center>
+            </div>
+        </form>
+    </body>
+</html>
