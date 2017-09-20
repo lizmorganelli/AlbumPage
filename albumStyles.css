@@ -1,0 +1,25 @@
+#tracknumber {
+    color:blue;
+}
+#tracktitle {
+    color:violet
+}
+#tracklength {
+    color:orangered
+}
+li {
+    color:purple;
+    font-size:24px;
+    font-style:italic;
+}
+#bandMembers {
+    border: 3px green dashed;
+}
+h2 {
+    font-family:'Lucida Sans';
+}
+#contact,#reason {
+    font-family: Verdana;
+    font-size: 18px;
+    color: purple;
+}

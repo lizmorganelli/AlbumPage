@@ -2,20 +2,22 @@
 <html>
     <head>
         <title>Album Page</title>
+        <link href="albumStyles.css" rel="stylesheet" type="text/css"/>
         <style>
-                table, th, td {border: 1px solid black;
+                table, th, td {border: 2px solid green;
                 border-collapse: collapse;
                 text-align: center;
                 }
         </style>
     </head>
     <body>
+        <a href="contact.html">Contact Us</a>
         <div>
             <center>
                 <img src="images/DavidBowieHunkyDory.jpg" />
-                <h1>Hunky Dory</h1>
+                <h1 style="color:green;font-family:fantasy;font-size:60px;margin-bottom: 0px;">Hunky Dory</h1>
                 <h2><a href="htt://www.davidbowie.com">David Bowie</a></h2>
-                <h3>1971</h3>
+                <h3 style="margin-top: 0px;">1971</h3>
             </center>
         </div>
         <hr>
@@ -24,7 +26,7 @@
             label for the next decade. Hunky Dory has been described by AllMusic's Stephen Thomas Erlewine 
             as having "a kaleidoscopic array of pop styles, tied together only by Bowie's sense of vision: 
             a sweeping, cinematic mélange of high and low art, ambiguous sexuality, kitsch, and class"</p> -->
-        <div>
+        <div id="bandMembers">
             <h2><center>Band Members and Producers</center></h2>
             <ul>
                 <li>David Bowie - Lead Vocals, Guitar, Saxophone, Piano, Producer</li>
@@ -36,13 +38,13 @@
             </ul>
         </div>
         <center>
-        <table>
+        <table id="tracks">
             <caption><h2>Tracks</h2></caption>
             <thead>
                 <tr bgcolor="grey">
-                    <th width="200"><strong>Track #</strong></th>
-                    <th width="400"><strong>Track Title</strong></th>
-                    <th width="600"><strong>Track Length</strong></th>
+                    <th id="tracknumber" width="200"><strong>Track #</strong></th>
+                    <th id="tracktitle" width="400"><strong>Track Title</strong></th>
+                    <th id="tracklength" width="600"><strong>Track Length</strong></th>
                 </tr>
             </thead>
             <tbody>

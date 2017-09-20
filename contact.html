@@ -2,14 +2,16 @@
 <html>
     <head>
         <title>Album - Contact</title>
+        <link href="albumStyles.css" rel="stylesheet" type="text/css"/>
         <style>
                 table, td {border-spacing: 1em;
                 }
         </style>
     </head>
     <body>
+        <a href="index.html">Home</a>
         <form action="#" method="POST">
-            <table>
+            <table id="contact">
             <div>
                 <tr>
                     <td align="right"><label id="FirstNameLabel" for="FirstName">First Name:</label></td> 
@@ -38,7 +40,7 @@
             <div>
                 <tr>
                     <td align="right"><label id="ReasonLabel" for="Reason">Reason:</label></td>
-                    <td><select name="Reason">
+                    <td><select id="reason" name="Reason">
                         <option value="SelectReason">Select a Reason</option>
                         <option value="SoftwareSupport">Software Support</option>
                         <option value="HardwareSupport">Hardware Support</option>
