@@ -8,18 +8,28 @@
                 border-collapse: collapse;
                 text-align: center;
                 }
+                #albumName,#bandTitle {
+                    color:#056605;
+                    font-family:fantasy;
+                }
+                .albumimage {
+                    background-image: url(images/DavidBowieHunkyDory.jpg); 
+                    background-repeat: no-repeat;
+                    background-attachment: scroll; 
+                    background-position: center;
+                    background-size: 400px 400px;
+                    height: 400px;
+                }
         </style>
     </head>
     <body>
         <a href="contact.html">Contact Us</a>
-        <div>
             <center>
-                <img src="images/DavidBowieHunkyDory.jpg" />
-                <h1 style="color:green;font-family:fantasy;font-size:60px;margin-bottom: 0px;">Hunky Dory</h1>
+                <div class="albumimage"></div>
+                <h1 id="albumName" style="font-size:60px;margin-bottom: 0px;">Hunky Dory</h1>
                 <h2><a href="htt://www.davidbowie.com">David Bowie</a></h2>
-                <h3 style="margin-top: 0px;">1971</h3>
+                <h3 style="margin-top: 0px;">December 17th, 1971</h3>
             </center>
-        </div>
         <hr>
         <!-- <p>Hunky Dory is the fourth studio album by the English musician David Bowie, released on 17 
             December 1971 by RCA Records.[1] It was his first release through RCA, which would be his 
@@ -27,7 +37,7 @@
             as having "a kaleidoscopic array of pop styles, tied together only by Bowie's sense of vision: 
             a sweeping, cinematic mélange of high and low art, ambiguous sexuality, kitsch, and class"</p> -->
         <div id="bandMembers">
-            <h2><center>Band Members and Producers</center></h2>
+            <h2 id="bandTitle" style="font-size:34px"><center>Band Members and Producers</center></h2>
             <ul>
                 <li>David Bowie - Lead Vocals, Guitar, Saxophone, Piano, Producer</li>
                 <li>Mick Ronson - Guitar, Vocals, Mellotron, Arrangements</li>
