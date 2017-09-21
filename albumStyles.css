@@ -1,11 +1,16 @@
-#tracknumber {
-    color:blue;
+a {
+    text-decoration: none;
 }
-#tracktitle {
-    color:violet
+a:hover {
+    text-decoration: underline;
+    background-color: orange;
 }
-#tracklength {
-    color:orangered
+thead {
+    background-color:gray
+}
+tbody {
+    font-style:italic;
+    background-color: lightseagreen
 }
 li {
     color:purple;
