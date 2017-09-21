@@ -5,12 +5,11 @@ a:hover {
     text-decoration: underline;
     background-color: orange;
 }
-thead {
+.tracks thead {
     background-color:gray
 }
-tbody {
+.tracks tbody {
     font-style:italic;
-    background-color: lightseagreen
 }
 li {
     color:purple;
